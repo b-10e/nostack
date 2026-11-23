@@ -7,6 +7,14 @@ This datapack prevents items from stacking.
 
 ----
 
+## Compatibility
+
+Uninstalling this datapack is safe, but will NOT allow already affected items to stack again.
+
+Do **NOT** use on a world you care about, or may want to have stackable items in the future!
+
+----
+
 Follows the [Smithed Datapack Conventions](https://docs.smithed.dev/conventions/)
 
 No generative AI was used in this project in any capacity.
