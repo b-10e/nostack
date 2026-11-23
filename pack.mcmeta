@@ -1,7 +1,8 @@
 {
-  "pack": {
-    "description": "Items can't stack!",
-    "min_format": 121,
-    "max_format": 121
-  }
+    "id":"nostack",
+    "pack": {
+        "description": "Items can't stack!",
+        "min_format": 121,
+        "max_format": 121
+    }
 }
