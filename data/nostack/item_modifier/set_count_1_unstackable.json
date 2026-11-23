@@ -1,0 +1,7 @@
+{
+    "type": "sequence",
+    "functions": [
+        "nostack:set_count_1",
+        "nostack:set_unstackable"
+    ]
+}
