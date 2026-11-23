@@ -3,7 +3,7 @@
 
 This datapack prevents items from stacking.
 
-<img width="400" height="225" alt="2026-10-19 13-54-57" src="https://github.com/user-attachments/assets/12d343a3-68d3-410d-b9ba-e192cee6e503" />
+<img width="400" height="225" alt="2026-11-23 13-24-04(1)" src="https://github.com/user-attachments/assets/c796c3a2-fb38-4a29-92c3-afddc49528d8" />
 
 ----
 
