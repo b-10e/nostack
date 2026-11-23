@@ -1,0 +1,1 @@
+execute if items entity @s player.cursor *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"player.cursor"}

@@ -1,0 +1,24 @@
+{
+	"criteria": {
+		"inventory_change": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:type_specific/player": {
+							"gamemode": [
+								"survival",
+								"adventure"
+							]
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "nostack:on_inventory_change"
+	}
+}

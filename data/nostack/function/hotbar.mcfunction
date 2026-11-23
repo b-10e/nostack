@@ -1,0 +1,9 @@
+execute if items entity @s hotbar.0 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.0"}
+execute if items entity @s hotbar.1 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.1"}
+execute if items entity @s hotbar.2 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.2"}
+execute if items entity @s hotbar.3 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.3"}
+execute if items entity @s hotbar.4 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.4"}
+execute if items entity @s hotbar.5 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.5"}
+execute if items entity @s hotbar.6 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.6"}
+execute if items entity @s hotbar.7 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.7"}
+execute if items entity @s hotbar.8 *[minecraft:count={min:2}] run function nostack:separate_stack/main {slot:"hotbar.8"}

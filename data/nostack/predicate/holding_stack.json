@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "inventory.*": {
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "hotbar.*": {
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "weapon.offhand": {
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:slots": {
+                    "player.cursor": {
+                        "count": {
+                            "min": 2
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
