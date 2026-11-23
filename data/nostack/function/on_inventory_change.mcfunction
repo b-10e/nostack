@@ -16,5 +16,8 @@ execute if predicate nostack:inventory_stack in nostack:io run function nostack:
 execute if predicate nostack:cursor_stack in nostack:io run function nostack:cursor
 execute if predicate nostack:offhand_stack in nostack:io run function nostack:offhand
 
+# remove dropped item pickupdelays
+execute at @s positioned ~-0.5 ~ ~-0.5 as @e[dx=0,type=minecraft:item,predicate=nostack:is_flagged] run data merge entity @s {PickupDelay:0s,Item:{components:{"minecraft:custom_data":{"nostack.new":false}}}}
+
 # delete item display
 kill f6af9695-6564-458c-a1cf-41c935ec2255
